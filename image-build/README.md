@@ -23,7 +23,7 @@ Currently, a single logical Amazon Machine Image (AMI) is generated containg the
 This AMI includes:
 
   * Oracle Java JDK 1.8 and Oracle Java JRE 1.8
-  * * [OpenJDK 1.7](http://openjdk.java.net/projects/jdk7/) and OpenJRE 1.7.
+  * [OpenJDK 1.7](http://openjdk.java.net/projects/jdk7/) and OpenJRE 1.7
   * [OpenJDK 1.8](http://openjdk.java.net/projects/jdk8/) and OpenJRE 1.8
   * Python 2.7
   * R

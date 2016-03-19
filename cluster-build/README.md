@@ -12,7 +12,7 @@ Ensure you modify the URL on line 41 in [setup-common.sh](sbin/setup-common.sh) 
 
 It's recommended TF_VAR environment and command line variables be used as per the Terraform [documentation](https://www.terraform.io/docs/configuration/variables.html).
 
-For each machine cluster, we create the following objects:●	Virtual Private Cloud (VPC), ●	Network security groups, ●	Network subnets and routing tables, and ●	Machine instances corresponding to various nodes within the cluster. The VPC, network security groups, network subnets and routing tables ensure all cluster resources are isolated from other managed clusters.
+For each machine cluster, we create the following objects:* Virtual Private Cloud (VPC), * network security groups, * network subnets and routing tables, and * machine instances corresponding to various nodes within the cluster. The VPC, network security groups, network subnets and routing tables ensure all cluster resources are isolated from other managed clusters.
 
 ## Logging
 
