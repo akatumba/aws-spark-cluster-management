@@ -14,7 +14,7 @@ if [ -z "$AWS_ACCESS_KEY_ID" ] || [ -z "$AWS_SECRET_ACCESS_KEY" ]; then
 fi
 
 function handle_error () {
-  echo "[error] Got a return code of $? on line $1." >&2
+  echo "[error] Encountered a return code of $? on line $1." >&2
   echo "[error] The build did not complete successfully." >&2
   exit 1
 }

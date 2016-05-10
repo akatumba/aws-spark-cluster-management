@@ -24,7 +24,7 @@ variable "ssh_key_name" {
 
 variable "ssh_key_path" {
   description = "Path to the SSH private key file."
-  default = "~/.ssh/us-west-1/sixafter-deployer.pem"
+  default = "~/.ssh/six-after/us-west-1/sixafter-deployer.pem"
 }
 
 variable "aws_ssh_user" {
@@ -104,3 +104,4 @@ variable "cluster_size" {
   description = "The size of the Spark cluster in terms of number of nodes excluding the master node."
   default = 10
 }
+
